@@ -1,5 +1,4 @@
 
-
 <?php
 // Importar PHPMailer
 use PHPMailer\PHPMailer\PHPMailer;
@@ -17,13 +16,14 @@ $mail= new PHPMailer(true);
 
 try
 {
-    // Configurações do servidor
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $mensagem = $_POST['mensagem'];
+    // Obter dados do POST e limpar a entrada
+    $nome = filter_input(INPUT_POST, 'nome');
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+    $mensagem = filter_input(INPUT_POST, 'mensagem');
 
+    // Verificar se os campos estão vazios
     if(empty($nome) || empty($email) || empty($mensagem)) {
-        die('Por favor, preencha todos os campos.');
+        throw new Exception('Por favor, preencha todos os campos.');
     }
     
     $mail->isSMTP();
@@ -35,15 +35,18 @@ try
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
 
-    $mail->setFrom('joaomgse@gmail.com', 'Mailer Serviço');
+    $mail->setFrom('joaomgse@gmail.com', 'Mailer Service');
     $mail->addAddress($_POST['email'], $_POST['nome']);
 
     //Corpo da Mensagem
     $mail->isHTML(true);
     $mail->Subject = 'Confirmação de Contato';
-    $mail->Body = 'Olá, ' . $_POST['nome'] . '! Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.';
-    $mail->AltBody = 'Olá, ' . $_POST['nome'] . '! Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.';
+    $mail->Body = 'Olá, ' . $nome . '! Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.';
+    $mail->AltBody = 'Olá, ' . $nome . '! Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.';
     $mail->send();
+    
+    // Redirecionar para a página de sucesso - Ajustar
+    header('Location: ../public/success.php');
 
 }
 
