@@ -13,7 +13,12 @@
     <div class="container-fluid bg-primary-subtle text-primary-emphasis">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <div class="colapse navbar-collapse" id="navbar">
+                <!-- Botão de alternância de navegação -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <!-- Itens do menu -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -25,11 +30,12 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#">Serviços</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
                         </li>
+                        <!-- Outros itens do menu -->
                     </ul>
                 </div>
             </div>
@@ -39,20 +45,24 @@
 
 <body>
     <section class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Alterar texto -->
-                    <h1 class="text-primary">Bootstrap</h1>
-                    <p class="text-start fs-4">A Coleta Seletiva: Um Pilar para Cidades Sustentáveis</p>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Alterar texto -->
+                <h1 class="text-primary">Coleta Seletiva</h1>
+                <article class="justify-content-center align-items-center">
+                    <div>
+                        <p class="text-start fs-4">A Coleta Seletiva: Um Pilar para Cidades Sustentáveis</p>
+                    </div>
                     <p>A coleta seletiva se ergue como um pilar fundamental para a construção de cidades mais sustentáveis e saudáveis. Através da separação consciente dos resíduos, damos vida a um ciclo virtuoso que beneficia o meio ambiente, a economia e a sociedade.
                         Um Planeta Mais Verde: Ao reciclar, reduzimos drasticamente a quantidade de lixo enviada aos aterros sanitários, diminuindo a poluição do solo e dos lençóis freáticos. Preservamos recursos naturais finitos, como árvores e minérios, e combatemos as mudanças climáticas ao reduzir a emissão de gases do efeito estufa.
                         A coleta seletiva é, portanto, um investimento crucial para o presente e o futuro das nossas cidades. Ao adotá-la como um hábito diário, cada cidadão contribui para a construção de um futuro mais verde, justo e próspero para todos.
                     </p>
                     <p>Quer saber mais informações sobre Coleta Seletiva? </p>
-                </div>
+                </article>
             </div>
+        </div>
     </section>
-    <section class="container pb-3" id="send_form">
+    <section class="container pb-3 d-flex justify-content-center align-items-center">
         <div class="card" style="width :26rem;">
             <div class="card-body">
                 <h6 class="card-title">Preencha as suas informações abaixo:</h6>
@@ -74,17 +84,18 @@
             </div>
         </div>
     </section>
-    <script src="validacao.js"></script>
-</body>
-<!-- Alterar texto do footer-->
-<footer>
-    <div class="container-fluid bg-primary-subtle text-primary-emphasis">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center">© 2024 Limpeza. Todos os direitos reservados.</p>
+    <!-- Alterar texto do footer-->
+    <footer>
+        <div class="container-fluid bg-primary-subtle text-primary-emphasis">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">© 2024 Limpeza. Todos os direitos reservados.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
+</body>
+
 </html>
