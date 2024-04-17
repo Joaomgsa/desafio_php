@@ -1,0 +1,15 @@
+.opacity-half {
+    --bs-bg-opacity: .5;
+}
+
+.opacity-quarter {
+    --bs-bg-opacity: .4;
+}
+
+.text-width {
+    width: 16rem;
+}
+
+.header-title {
+    color: var(--bs-primary);
+}
