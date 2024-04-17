@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Alterar texto -->
     <header>
-        <title>Bootstrap</title>
+        <title>Teste de Programação</title>
     </header>
     <div class="container-fluid bg-primary">
         <nav class="navbar navbar-expand-lg">
@@ -49,9 +49,10 @@
         <div class="row">
             <div class="col-md-12">
                 <!-- Alterar texto -->
-                <h1 class="text-primary">Coleta Seletiva</h1>
                 <article class="justify-content-center align-items-center">
-                    <div class="bg-black" style="--bs-bg-opacity: .7;">
+                   <div class="bg-black p-2" style="--bs-bg-opacity: .4;">
+                    <div class="" >
+                        <h1 class="text-primary">Coleta Seletiva</h1>
                         <p class="text-start fs-4">Um Pilar para Cidades Sustentáveis</p>
                     </div>
                     <div class="row align-items-start">
@@ -78,12 +79,13 @@
                     <div>
                         <p>Quer saber mais informações sobre Coleta Seletiva? </p>
                     </div>
+                    </div> 
                 </article>
             </div>
         </div>
     </section>
-    <section class="container pb-3 d-flex justify-content-center align-items-center">
-        <div class="card" style="width :26rem;">
+    <section class="container p-3 d-flex justify-content-center align-items-center">
+        <div class="card bg-secondary" style="width :26rem;">
             <div class="card-body">
                 <h6 class="card-title">Preencha as suas informações abaixo:</h6>
                 <form action="./php/enviar.php" method="post">
@@ -109,7 +111,7 @@
     </section>
     <!-- Alterar texto do footer-->
     <footer>
-        <div class="container-fluid bg-primary-subtle text-primary-emphasis">
+        <div class="container-fluid bg-primary">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -120,5 +122,4 @@
         </div>
     </footer>
 </body>
-
 </html>
