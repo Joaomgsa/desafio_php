@@ -13,6 +13,7 @@
     <div class="container-fluid bg-primary">
         <nav class="navbar navbar-expand-lg">
             <div class="container d-flex align-items-center">
+                <img src="./img/logopref.png"  class="navbar-brand" alt="Reciclagem" width="75" height="37">
                 <!-- Botão de alternância de navegação -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,14 +49,14 @@
                 <!-- Alterar texto -->
                 <article class="justify-content-center align-items-center">
                    <div class="bg-black p-3" style="--bs-bg-opacity: .4;">
-                    <div class="" >
+                    <div class="align-items-center" >
                         <h1 class="text-primary">Coleta Seletiva</h1>
                         <p class="text-start fs-4">Um Pilar para Cidades Sustentáveis</p>
                     </div>
                     <div class="row align-items-start">
                         <div class="col d-flex flex-column align-items-center">
                             <span class="fa-3x"><i class="fas fa-building"></i></span>
-                            <h3>Cidades Sustentáveis</h3>
+                            <h3>Coleta Seletiva</h3>
                             <p style="width: 16rem;">Solicitação enviada com sucesso</p>
                             <a href="/" class="icon-link">Saiba mais</a>
                         </div>

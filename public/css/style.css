@@ -13,3 +13,27 @@
 .header-title {
     color: var(--bs-primary);
 }
+
+.navbar-nav .nav-link {
+    color: #fff; /* Altere para a cor desejada */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #808080; /* Altere para a cor desejada quando o mouse passar por cima */
+}
+
+/* Esconde a imagem por padrão */
+#imagem-mobile {
+    display: none;
+}
+
+/* Exibe a imagem somente no menu mobile */
+@media (max-width: 768px) {
+    #imagem-mobile {
+        display: block;
+    }
+
+    #imagem-desktop {
+        display: none;
+    }
+}

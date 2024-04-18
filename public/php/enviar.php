@@ -43,7 +43,7 @@ try
     //Corpo da Mensagem
     $mail->isHTML(true);
     $mail->Subject = 'Confirmação de Contato';
-    $mail->Body = 'Olá, ' . $nome . '!<br><br> Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.<br><br>.'.'Usuário'. $nome.', <br><br>'. $mensagem . '<br><br>Atenciosamente, Equipe Limpeza.';
+    $mail->Body = 'Olá, ' . $nome . '!<br><br> Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.<br><br>.'.'Usuário :'. $nome.'<br><br>'. $mensagem . '<br><br>Atenciosamente, Equipe Atendimento.';
     $mail->AltBody = 'Olá, ' . $nome . '! Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.';
     $mail->send();
     
