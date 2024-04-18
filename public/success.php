@@ -3,7 +3,7 @@
 session_start();
 $nome = $_SESSION["nome"];
 $email = $_SESSION["email"];
-$mensagem = $nome .'<br>Sua solicitação foi enviada com sucesso para o email:<br>'. $email;
+$mensagem = '' .$nome .'<br>Sua solicitação foi enviada com sucesso para o email:<br>'. $email;
 ?>
 
 <!DOCTYPE html>

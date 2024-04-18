@@ -1,21 +1,26 @@
 Atividades : 
 
 
-Docker:
+Ambiente Docker:
+Necessário:
     Instalar Docker
-    Na pasta do projeto, rodar o comando: docker-compose up -d
+    Na pasta raiz do projeto, rodar o comando: docker-compose up -d
     Acessar o endereço http://localhost:8080
     Imagens :
         PHP 8.2
         Nginx
         Composer
 
-PHP :
-    Versão 8.2
-    Composer
-    Servidor web
+Ambiente Local:
+Necessário:
+    Instalar PHP 8.2
+    Instalar Composer
+    Instalar Servidor Web (Ex: Apache, Nginx)
+    Configurar o servidor web para apontar para a pasta public do projeto
+    Rodar o comando composer install
+    Acessar o endereço http://localhost
 
-Email : SMTP
+Serviço Email : SMTP
     Serviço de email utilizado: gmail
     Usuário: mailerdevjoaomgsa@gmail.com
     Senha: arquivo .env
