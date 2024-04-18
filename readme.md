@@ -4,26 +4,26 @@
 
 
 ## Ambiente Docker:
-### Necessário:<br>
-    Instalar Docker<br>
-    Na pasta raiz do projeto, rodar o comando: docker-compose up -d<br>
-    Acessar o endereço http://localhost:8080<br>
-    Imagens :<br>
-        PHP 8.2<br>
-        Nginx<br>
-        Composer<br>
+### Necessário:
+    Instalar Docker
+    Na pasta raiz do projeto, rodar o comando: docker-compose up -d
+    Acessar o endereço http://localhost:8080
+    Imagens :
+        PHP 8.2
+        Nginx
+        Composer
 
 ## Ambiente Local:
-### Necessário:<br>
-    Instalar PHP 8.2 <br>
-    Instalar Composer <br>
-    Instalar Servidor Web (Ex: Apache, Nginx) <br>
-    Configurar o servidor web para apontar para a pasta public do projeto <br>
-    Rodar o comando: composer install <br>
-    Acessar o endereço http://localhost <br>
+### Necessário:
+    Instalar PHP 8.2 
+    Instalar Composer 
+    Instalar Servidor Web (Ex: Apache, Nginx) 
+    Configurar o servidor web para apontar para a pasta public do projeto 
+    Rodar o comando: composer install 
+    Acessar o endereço http://localhost 
 
-Serviço Email : SMTP
-    Serviço de email utilizado: gmail
+## Serviço Email : SMTP
+###    Serviço de email utilizado: gmail
     Usuário: mailerdevjoaomgsa@gmail.com
     Senha: arquivo .env
     Host: smtp.gmail.com
