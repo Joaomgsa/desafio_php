@@ -46,7 +46,7 @@ try
 
     //Corpo da Mensagem
     $subject = 'Confirmação de Contato';
-    $body = 'Olá, ' . $nome . '!<br><br> Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.<br><br>'.'Usuário :'. $nome.'<br><br>'. $mensagem . '<br><br>Atenciosamente, Equipe Atendimento.';
+    $body = 'Olá, ' . $nome . '!<br><br> Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.<br>'.'Usuário :'. $nome.'<br><br>'. 'Mensagem: <br>' .$mensagem . '<br><br>Atenciosamente, Equipe Atendimento.';
     $altbody = 'Olá, ' . $nome . '! Recebemos sua mensagem e em breve entraremos em contato com mais informações sobre a coleta seletiva.';
     
     // Enviar mensagem
