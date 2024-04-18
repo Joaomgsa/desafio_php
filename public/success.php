@@ -64,7 +64,7 @@ $mensagem = $nome .'<br>Sua solicitação foi enviada com sucesso para o email:<
 <body>
     <!-- Conteúdo da Página-->
     <main class="bg-black text-white" style="--bs-bg-opacity: .5;">
-        <section class="container">
+        <section class="containerp-3 d-flex justify-content-center align-items-center" style="min-height: 80vh;">
             <div class="row">
                 <div class="col-md-12">
                     <article class="justify-content-center align-items-center">
@@ -78,14 +78,15 @@ $mensagem = $nome .'<br>Sua solicitação foi enviada com sucesso para o email:<
                 </div>
             </div>
         </section>
+    </main>
 
         <!-- Footer-->
         <footer>
-            <div class="container-fluid bg-primary">
+            <div class="container-fluid bg-primary d-flex justify-content-center align-items-center" style="min-height: 20vh;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <p class="text-center">© 2024 Prefeitura. Todos os direitos reservados.</p>
+                            <p class="text-center text-white">© 2024 Prefeitura. Todos os direitos reservados.</p>
                         </div>
                     </div>
                 </div>

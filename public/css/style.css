@@ -1,7 +1,7 @@
-footer{
-    background-color: #0d6dfc;
-    height: auto;
 
+.card-custom {
+    width: 26rem;
+    --bs-bg-opacity: .75;
 }
 
 .opacity-half {
@@ -12,7 +12,7 @@ footer{
     --bs-bg-opacity: .4;
 }
 
-.text-width {
+.text-width-16 {
     width: 16rem;
 }
 

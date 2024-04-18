@@ -62,6 +62,7 @@ try
 
 }
 
+// Capturar exceções
 catch (Exception $e)
 {
     echo "Erro ao enviar mensagem: {$mail->ErrorInfo}";
