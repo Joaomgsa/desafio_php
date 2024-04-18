@@ -43,7 +43,7 @@ session_start();
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Contato</a>
+                            <a class="nav-link" href="https://github.com/Joaomgsa">Contato</a>
                         </li>
                     </ul>
                     <div class="ms-auto">
