@@ -1,8 +1,9 @@
+## Desafio Comlurb
 Atividades : 
 
 
-Ambiente Docker:
-Necessário:
+<h2>Ambiente Docker:</h2>
+Necessário:<br>
     Instalar Docker
     Na pasta raiz do projeto, rodar o comando: docker-compose up -d
     Acessar o endereço http://localhost:8080
